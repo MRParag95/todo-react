@@ -47,7 +47,10 @@ function Register() {
                         <input className="UserEmail" type="email" id="UserEmail" name="UserEmail" />
                     </div>
                     <div className="UserPassword">
-                        <label htmlFor="UserPassword">Password</label>
+                        <div className="PasswordProtection">
+                            <label htmlFor="UserPassword">Password</label>
+                            <div className="PasswordStrength">Strong</div>
+                        </div>
                         <input className="UserPassword" type="password" id="UserPassword" name="UserPassword" />
                     </div>
                     <div className="UserDataSubmission">
