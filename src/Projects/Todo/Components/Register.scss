@@ -1,5 +1,6 @@
 .Register_Container {
-    @apply container bg-white p-5 rounded-lg md:flex md:gap-10 md:justify-center md:items-center;
+    max-width: 1280px;
+    @apply bg-white p-5 rounded-lg md:flex md:gap-10 md:justify-center md:items-center;
 
     .Section_Left {
         background-color: #F3F5F9;
@@ -72,7 +73,7 @@
             
             .UserDataSubmission {
                 .Submit {
-                    @apply bg-blue-600 text-white p-3 rounded-lg w-full mt-10 text-lg font-bold;
+                    @apply bg-blue-600 text-white p-3 rounded-lg w-full mt-10 text-lg font-bold hover:bg-blue-500;
                 }
             }
         }
