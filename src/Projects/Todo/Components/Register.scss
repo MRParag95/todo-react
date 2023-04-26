@@ -1,0 +1,92 @@
+.Register_Container {
+    @apply container bg-white p-5 rounded-lg md:flex md:gap-10 md:justify-center md:items-center;
+
+    .Section_Left {
+        background-color: #F3F5F9;
+
+        @apply rounded-lg hidden md:block;
+
+        .Icon {
+            @apply ml-10 mt-10;
+        }
+
+        .HeaderText {
+            color: #1B1B1B;
+            @apply mt-20 ml-10 mr-10 text-3xl font-bold;
+        }
+
+        .Description {
+            @apply mt-5 ml-10 mr-10 text-xl text-gray-600;
+        }
+
+        .UserReviewCard {
+            background-color: #2D3345;
+            @apply mt-20 ml-10 mr-10 text-white rounded-lg;
+
+            .UserReview {
+                @apply text-lg pt-8 pl-8 pr-8;
+            }
+
+            .UserInfo {
+                @apply pl-8 mt-5 flex items-center gap-3 pb-8;
+                .UserImage {
+                    @apply block w-20 h-20;
+                }
+                .UserData {
+                    .UserName {
+                        @apply font-bold text-lg;
+                    }
+                    .UserProfession {
+                        @apply text-gray-400;
+                    }
+                }
+            }
+        }
+
+        @apply pb-10;
+    }
+
+    .Section_Right {
+        .Info {
+            .Header {
+                color: #1B1B1B;
+                @apply text-3xl font-bold mb-5;
+            }
+            .ShortDescription {
+                @apply text-xl text-gray-500;
+            }
+
+            @apply mb-10;
+        }
+        .UserForm {
+            label {
+                @apply block mb-2 text-lg text-gray-500;
+            }
+            input[type="text"], input[type="email"], input[type="password"] {
+                @apply w-full p-3 rounded-lg border-2 border-gray-200 focus:border-blue-500 font-semibold;
+            }
+
+            .UserFullName, .UserEmail {
+                @apply mb-2;
+            }
+            
+            .UserDataSubmission {
+                .Submit {
+                    @apply bg-blue-600 text-white p-3 rounded-lg w-full mt-10 text-lg font-bold;
+                }
+            }
+        }
+        .UserExist {
+            @apply flex gap-3 justify-center items-center;
+            .UserExistText {
+                @apply text-gray-500 text-lg;
+            }
+            a {
+                @apply text-blue-600 text-lg font-semibold;
+            }
+            @apply text-center mt-10;
+        }
+
+        @apply w-full mr-5;
+    }
+}

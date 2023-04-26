@@ -1,9 +1,11 @@
+import Todo from "./Projects/Todo/Todo";
+
 function App() {
     return (
         <div>
-            Hello World
+            <Todo />
         </div>
-    );
+    )
 }
 
 export default App;

@@ -11,6 +11,9 @@
     "upp": "ncu -u && yarn && yarn add -D typescript@next"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.6.0",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
     "@react-three/a11y": "^3.0.0",
     "@react-three/babel": "^0.1.1",
     "@react-three/cannon": "^6.5.2",
@@ -45,6 +48,7 @@
     "leva": "^0.9.34",
     "maath": "^0.5.3",
     "miniplex": "^1.0.0",
+    "primeicons": "^6.0.1",
     "primereact": "^9.3.0",
     "react": "^18.2.0",
     "react-charts": "^3.0.0-beta.54",
